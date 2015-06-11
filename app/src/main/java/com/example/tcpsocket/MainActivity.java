@@ -33,7 +33,7 @@ import android.util.*;
 import android.view.*;
 import android.widget.*;
 
-
+//This is main Activity
 public class MainActivity extends Activity implements CvCameraViewListener2 {
     private CameraBridgeViewBase mOpenCvCameraView;
     private boolean mIsJavaCamera = true;
