@@ -116,6 +116,7 @@ public class MainActivity extends Activity implements CvCameraViewListener2 {
     @Override
     public void onPause()
     {
+	    //This is onPause Events
      super.onPause();
         if(mOpenCvCameraView != null)
             mOpenCvCameraView.disableView();
